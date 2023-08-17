@@ -1,0 +1,247 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+
+
+
+hr{
+    border-style:dotted none none none;
+    border-width: 5px;
+    width: 3%;
+    border-color: #1A3C40;
+    margin: 100px auto ;
+    
+}
+
+p{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    line-height: 2;
+    font-size: 20px;
+    color: #417D7A;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #1A3C40;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #1A3C40;
+}
+
+a{
+    color:  #1A3C40;
+}
+
+
+
+img{
+    margin-right: 1em;
+}
+
+.top-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #417D7A;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width:80px
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+
+}
+
+.content{
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+
+
+
+}
+
+.content h1{
+    
+    font-size: 160px ;
+    font-family: 'Dancing Script', cursive;
+    color: #417D7A;
+    font-weight: 600;
+}
+
+.content p{
+    color: #EDE6DB;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #EDE6DB;
+    font-size: 24px;
+    border: 4px solid #417D7A;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.5;
+
+}
+
+@media (min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    color: #417D7A;
+    
+}
+
+.middle-container{
+    background-color: #EDE6DB;
+    margin: auto ;
+    height: auto;
+}
+
+.bottom-container{
+    background-color: #1A3C40;
+    margin: auto;
+    height: auto;
+    
+}
+
+.skills{
+    margin: 8.25em auto;
+}
+
+.skill-img-one{
+    width: auto;
+    height: 200px;
+    
+}
+
+.skill-img-two{
+    width: auto;
+    height: 200px;
+    
+}
+
+.title{
+    width: 100%;
+    height: 30px;
+}
+.description{
+    width: 100%;
+    height: 50px;
+}
+
+.row{
+    
+    margin: 100px 150px;
+    align-self: center;
+    justify-content: center;
+    
+
+}
+.skill-row{
+    margin: 20px;
+    align-self: center;
+    justify-content: center;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 100px auto auto auto;
+    padding: 1.5em;
+    
+   
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #417D7A;
+    background-image: -webkit-linear-gradient(top, #417D7A, #1A3C40);
+    background-image: -moz-linear-gradient(top, #417D7A, #1A3C40);
+    background-image: -ms-linear-gradient(top, #417D7A, #1A3C40);
+    background-image: -o-linear-gradient(top, #417D7A, #1A3C40);
+    background-image: linear-gradient(to bottom, #417D7A, #1A3C40);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #000000;
+    font-family: 'Quicksand', sans-serif;
+    color: #EDE6DB;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+    
+  }
+  
+  .btn:hover {
+    background: #1A3C40;
+    background-image: -webkit-linear-gradient(top, #1A3C40, #417D7A);
+    background-image: -moz-linear-gradient(top, #1A3C40, #417D7A);
+    background-image: -ms-linear-gradient(top, #1A3C40, #417D7A);
+    background-image: -o-linear-gradient(top, #1A3C40, #417D7A);
+    background-image: linear-gradient(to bottom, #1A3C40, #417D7A);
+    text-decoration: none;
+  }
+
+  .copyright{
+    font-size: 0.75rem;
+  }
